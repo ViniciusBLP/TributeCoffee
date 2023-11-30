@@ -1,0 +1,246 @@
+body {
+    background-color: #8B6447;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+main {
+    background-color: #F2EAE0;
+    margin: 50px;
+    padding: 20px;
+    outline: 2px solid #261714;
+    text-align: center;
+    display: inline-block;
+}
+
+main div {
+    margin: 10px;
+    outline: 2px solid black;
+    display: inline-block;
+    background-color: #EADEBA;
+    padding: 10px;
+}
+
+.image-button-1 {
+    display: block;
+    width: 500px;
+    height: 400px;
+    padding: 0;
+    /* Remova o preenchimento para que o texto fique colado às bordas */
+    border: 2px solid black;
+    background: url('HistoriaDoCafe.jpeg') center/cover;
+    /* Define a imagem como background */
+    color: #ffffff;
+    /* Cor do texto para garantir a legibilidade */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.image-button-1:hover {
+    transform: scale(1.1);
+}
+
+.image-button-container-1 {
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.image-button-container-1 button {
+    font-family: cursive;
+    font-size: xx-large;
+    color: black;
+}
+
+.image-button-2 {
+    display: block;
+    width: 500px;
+    height: 400px;
+    padding: 0;
+    /* Remova o preenchimento para que o texto fique colado às bordas */
+    border: 2px solid black;
+    background: url('CulturaDoCafe.jpeg') center/cover;
+    /* Define a imagem como background */
+    color: #ffffff;
+    /* Cor do texto para garantir a legibilidade */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.image-button-2:hover {
+    transform: scale(1.1);
+}
+
+.image-button-container-2 {
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.image-button-container-2 button {
+    font-family: cursive;
+    font-size: xx-large;
+    color: #EADEBA;
+}
+
+.image-button-3 {
+    display: block;
+    width: 500px;
+    height: 400px;
+    padding: 0;
+    /* Remova o preenchimento para que o texto fique colado às bordas */
+    border: 2px solid black;
+    background: url('TiposDeGraos.jpeg') center/cover;
+    /* Define a imagem como background */
+    color: #ffffff;
+    /* Cor do texto para garantir a legibilidade */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.image-button-3:hover {
+    transform: scale(1.1);
+}
+
+.image-button-container-3 {
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.image-button-container-3 button {
+    font-family: cursive;
+    font-size: xx-large;
+    color: yellow;
+}
+
+.image-button-4 {
+    display: block;
+    width: 500px;
+    height: 400px;
+    padding: 0;
+    /* Remova o preenchimento para que o texto fique colado às bordas */
+    border: 2px solid black;
+    background: url('Equipamentos.jpeg') center/cover;
+    /* Define a imagem como background */
+    color: #ffffff;
+    /* Cor do texto para garantir a legibilidade */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.image-button-4:hover {
+    transform: scale(1.1);
+}
+
+.image-button-container-4 {
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.image-button-container-4 button {
+    font-family: cursive;
+    font-size: xx-large;
+    color: #EADEBA;
+}
+
+.image-button-5 {
+    display: block;
+    width: 500px;
+    height: 400px;
+    padding: 0;
+    /* Remova o preenchimento para que o texto fique colado às bordas */
+    border: 2px solid black;
+    background: url('Curiosidades.jpeg') center/cover;
+    /* Define a imagem como background */
+    color: #ffffff;
+    /* Cor do texto para garantir a legibilidade */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.image-button-5:hover {
+    transform: scale(1.1);
+}
+
+.image-button-container-5 {
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.image-button-container-5 button {
+    font-family: cursive;
+    font-size: xx-large;
+    color: #EADEBA;
+}
+
+.image-button-1,
+.image-button-2,
+.image-button-3,
+.image-button-4,
+.image-button-5 {
+    width: 100%; /* Alterado para ocupar 100% da largura em telas menores */
+    height: auto; /* Adicionado para manter a proporção da imagem */
+}
+
+/* Adicione media query para 320x480 */
+@media only screen and (max-width: 320px) {
+    main {
+        margin: 5px; /* Ajustado para melhor se adaptar à tela menor */
+        padding: 5px; /* Ajustado para melhor se adaptar à tela menor */
+    }
+    /* Outras adaptações conforme necessário */
+}
+
+@media only screen and (min-width: 1366px) {
+    body {
+        font-size: large; /* Ajustado para ser maior em telas maiores */
+    }
+
+    main {
+        margin: 50px;
+        padding: 20px;
+    }
+
+    .image-button-1,
+    .image-button-2,
+    .image-button-3,
+    .image-button-4,
+    .image-button-5 {
+        width: 500px; /* Mantido o mesmo tamanho para telas maiores */
+        height: 400px; /* Mantido o mesmo tamanho para telas maiores */
+    }
+    /* Outras adaptações conforme necessário */
+}
