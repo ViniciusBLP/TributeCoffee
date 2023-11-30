@@ -1,17 +1,33 @@
 body {
     background-color: olive;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: 16px; /* Tamanho base da fonte */
 }
 
 main {
-    padding: 10px 100px;
+    padding: 10px;
     background-color: #F2EAE0;
-    margin: 50px;
-    outline: 2px solid black;
+    margin: 20px;
+    border: 2px solid black;
 }
 
-li { 
+li {
     list-style-type: square;
+}
+
+/* Media query para telas com largura máxima de 320 pixels (exemplo: smartphones em modo retrato) */
+@media screen and (max-width: 320px) {
+    main {
+        padding: 5px;
+        margin: 10px;
+    }
+}
+
+/* Media query para telas com largura mínima de 1366 pixels (exemplo: monitores widescreen) */
+@media screen and (min-width: 1366px) {
+    main {
+        padding: 20px 100px;
+        margin: 50px;
+    }
 }
 
